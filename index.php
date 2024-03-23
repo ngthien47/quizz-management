@@ -33,8 +33,9 @@
 <body>
   <div class="header">
     <div class="row">
-      <div class="col-lg-6">
-        <span class="logo">Test Your Skill</span>
+      <div class="col-lg-6" style="height: 70px; display: flex; align-items: center">
+        <span> <img class="logo-img"src="uef-logo.png" alt=""></span>
+        <span class="logo">Quizz Management</span>
       </div>
       <div class="col-md-2 col-md-offset-4">
         <a href="#" class="pull-right btn sub1" data-toggle="modal" data-target="#myModal"><span
@@ -193,13 +194,7 @@
   <!--Footer start-->
   <div class="row footer">
     <div class="col-md-3 box">
-      <a href="http://www.netcamp.in" target="_blank">About us</a>
-    </div>
-    <div class="col-md-3 box">
       <a href="#" data-toggle="modal" data-target="#login">Admin Login</a>
-    </div>
-    <div class="col-md-3 box">
-      <a href="#" data-toggle="modal" data-target="#developers">Developers</a>
     </div>
     <div class="col-md-3 box">
       <a href="feedback.php" target="_blank">Feedback</a>
